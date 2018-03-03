@@ -1,2 +1,2 @@
 # Simp_POV
-simple POV display using atmega 328
+**A simple POV display using atmega 328**
