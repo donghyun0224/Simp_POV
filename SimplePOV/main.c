@@ -16,7 +16,7 @@
 
 #include "font.h" // Font data
 
-const char str[] = "Hello, SCSC!"; // String to be displayed
+const char str[] __attribute__((progmem)) = "Hello, SCSC!"; // String to be displayed (Stored in code memory)
 
 const unsigned short DLEN = FONTWIDTH * (sizeof(str) - 1); // Display data length(Font width*String length)
 
